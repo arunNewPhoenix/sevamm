@@ -1,0 +1,8 @@
+.banner {
+    border: 1px solid #ccc; /* set the border properties */
+    border-radius: 10px; /* set the border radius */
+    padding: 10px; /* set the padding */
+    background-color: #fff; /* set the background color */
+    width: 50%;
+    display: block;
+  }

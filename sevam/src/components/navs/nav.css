@@ -1,0 +1,22 @@
+
+
+  .navbar-nav .nav-link {
+    margin-right: 100px; /* adjust this value as needed */
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: end;
+    background-color: aquamarine;
+  }
+  .navbar ul {
+
+    background-color:antiquewhite;
+ } 
+
+ .navbar {
+    background-color: #28629d; /* set your desired background color */
+    width: 100%;
+
+  }
+  
