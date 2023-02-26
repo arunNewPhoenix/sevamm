@@ -7,15 +7,19 @@
     flex-direction: row;
     justify-content: space-between;
     justify-self: end;
-    background-color: aquamarine;
   }
   .navbar ul {
 
     background-color:antiquewhite;
+    top: 0px;
  } 
 
  .navbar {
-    background-color: #28629d; /* set your desired background color */
+    background-color: #1F1172;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
     width: 100%;
 
   }

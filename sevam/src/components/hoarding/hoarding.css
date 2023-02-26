@@ -1,8 +1,42 @@
-.banner {
-    border: 1px solid #ccc; /* set the border properties */
-    border-radius: 10px; /* set the border radius */
-    padding: 10px; /* set the padding */
-    background-color: #fff; /* set the background color */
+.container {
+display:flex;
+width: 100%;
+padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.box {
     width: 50%;
-    display: block;
-  }
+    height: 500px;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    background-color: #F5F5F5;
+}
+.user-picture { 
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    top: 58px;
+    right: 0;
+    background-color: #F5F5F5;
+}
+
+
+
+
+
+
+.banner{
+    position: absolute;
+    border: 20px solid #002D62;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: blue;
+    height: 335px;
+    width: 472px;
+}
