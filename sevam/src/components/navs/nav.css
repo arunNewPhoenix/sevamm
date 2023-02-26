@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    justify-self: end;
+    padding-top: 50px;
+   
   }
   .navbar ul {
 
@@ -16,11 +17,13 @@
 
  .navbar {
     background-color: #1F1172;
-    position: absolute;
+    position:absolute;
     top: 0px;
     left: 0px;
     z-index: 1;
     width: 100%;
+    height: 70px;
+   
 
   }
   

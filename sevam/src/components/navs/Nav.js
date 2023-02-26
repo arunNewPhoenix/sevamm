@@ -10,10 +10,10 @@ function Nav() {
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="#"><p style={{color: "#ffff"}}>Hello</p></a>
-      <a class="nav-item nav-link" href="#"><p style={{color: "#ffff"}}>Hello</p></a>
-      <a class="nav-item nav-link" href="#"><p style={{color: "#ffff"}}>Hello</p></a>
-      <a class="nav-item nav-link disabled" href="#"><p style={{color: "#ffff"}}>Hello</p></a>
+      <a class="nav-item nav-link active" href="#"><p style={{color: "#ffff"}}>get personal help </p></a>
+      <a class="nav-item nav-link" href="#"><p style={{color: "#ffff"}}>Get premium</p></a>
+      <a class="nav-item nav-link" href="#"><p style={{color: "#ffff"}}>Your wallet</p></a>
+      <a class="nav-item nav-link disabled" href="#"><p style={{color: "#ffff"}}>profile</p></a>
     </div>
   </div>
 </nav>

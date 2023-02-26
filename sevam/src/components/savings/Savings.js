@@ -3,16 +3,34 @@ import "./savings.css";
 const Savings = () => {
   return (
     <div className="savings-section">
-   
-
       <div className="saving-instruc">
-      <div className='line'></div>
-      <div className="vertical-line"></div>
+        <div className="line"></div>
+        <div className="vertical-line"></div>
+        <div className="instructions">
+          <p className="para-pos1">
+            Credit cards may provide a temporary sense of relief, but the high
+            rates of interest can deplete your savings in no time. It helps to
+            limit your debt and restrict credit card purchases to ensure that
+            your savings are intact and growing
+          </p>
+          <p className="para-pos2">
+            If you find it difficult to save regularly, try to record and keep a
+            track of your monthly expenditure. This will offer you a clear
+            picture of where you spend. You can then identify the things that
+            are not important and aim at saving more by avoiding those
+            purchases.
+          </p>
+          <p className="para-pos3">
+            To devise a budget for each month. You can create a plan at the
+            beginning of the month to target savings and set limits for
+            spending. This lets you focus on what is important, reduces the
+            chances of over-spending, and lets you save as planned.
+          </p>
+        </div>
       </div>
       <div className="saving-plans">
         <div class="plans">
           {" "}
-       
           <div class="row ">
             {" "}
             <div class="col-lg-4 col-md-4 ">
@@ -31,19 +49,19 @@ const Savings = () => {
                 <ul class="mb-5 list-unstyled text-muted">
                   {" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Bedrooms cleaning
+                    <span class="fa fa-check me-2"></span>tax benifits
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Vacuuming
+                    <span class="fa fa-check me-2"></span>credit card benifits
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Bathroom cleaning
+                    <span class="fa fa-check me-2"></span>subsidies
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Mirrow cleaning
+                    <span class="fa fa-check me-2"></span>Investment
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Livingroom cleaning
+                    <span class="fa fa-check me-2"></span>Loan
                   </li>{" "}
                 </ul>{" "}
                 <div class="btn btn-primary"> get started </div>{" "}
@@ -65,19 +83,16 @@ const Savings = () => {
                 <ul class="mb-5 list-unstyled text-muted">
                   {" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Bedrooms cleaning
+                    <span class="fa fa-check me-2"></span>tax benifits
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Vacuuming
+                    <span class="fa fa-check me-2"></span>credit card benifits
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Bathroom cleaning
-                  </li>{" "}
+                    <span class="fa fa-check me-2"></span>subsidies
+                  </li>
                   <li>
-                    <span class="fa fa-check me-2"></span>Mirrow cleaning
-                  </li>{" "}
-                  <li>
-                    <span class="fa fa-check me-2"></span>Livingroom cleaning
+                    <span class="fa fa-check me-2"></span>Investment
                   </li>{" "}
                 </ul>{" "}
                 <div class="btn btn-primary mb-1"> get started </div>{" "}
@@ -99,20 +114,13 @@ const Savings = () => {
                 <ul class="mb-5 list-unstyled text-muted">
                   {" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Bedrooms cleaning
+                    <span class="fa fa-check me-2"></span>credit card benifits
                   </li>{" "}
                   <li>
-                    <span class="fa fa-check me-2"></span>Vacuuming
+                    <span class="fa fa-check me-2"></span>Investment
                   </li>{" "}
-                  <li>
-                    <span class="fa fa-check me-2"></span>Bathroom cleaning
-                  </li>{" "}
-                  <li>
-                    <span class="fa fa-check me-2"></span>Mirrow cleaning
-                  </li>{" "}
-                  <li>
-                    <span class="fa fa-check me-2"></span>Livingroom cleaning
-                  </li>{" "}
+                  
+            
                 </ul>{" "}
                 <div class="btn btn-primary "> get started </div>{" "}
               </div>{" "}

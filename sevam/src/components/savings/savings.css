@@ -133,3 +133,37 @@ body {
     height: 600px;
     left: 469px;
 }
+.instructions{
+    display: flex;
+    flex-direction: column;
+}
+
+.para-pos1{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 106px;
+    left: 0;
+    font-size: smaller;
+    padding-left: 1%;
+   
+}
+.para-pos2{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 226px;
+    left: 0;
+    font-size: smaller;
+    padding-left: 1%;
+}
+.para-pos3{
+    width: 70%;
+    height: 500px;
+    position: absolute;
+    top: 368px;
+    left: 0;
+    font-size: smaller;
+    padding-left: 1%;
+   
+}

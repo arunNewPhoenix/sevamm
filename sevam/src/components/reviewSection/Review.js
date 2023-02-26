@@ -36,9 +36,13 @@ const Review = () => {
 </div>
 <div className='section-1'>
 <div className='review-1'>
+
 <div className='circle-img-profile'>
+
 <img src={reviewPic} className="img-pic"/>
+
 <div className='review-line'></div>
+
 </div>
   </div>
 </div>
@@ -49,7 +53,7 @@ const Review = () => {
 <label>
 
 <input type="text" name="name"  className='input-bar'/>
-<button className='round-button'><p className='label'>Subscribe</p></button>
+<button className='round-button' ><span> subscribe</span></button>
 
 </label>
 </form>
