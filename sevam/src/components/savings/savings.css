@@ -8,7 +8,7 @@
 }
 .saving-instruc {
     width: 40%;
-    height: 500px;
+    height: 685px;
     position: absolute;
     top: 1218px;
     left: 0;
@@ -17,7 +17,7 @@
 
 .saving-plans {
     width: 60%;
-    height: 500px;
+    height: 685px;
     position: absolute;
     top: 1218px;
     right: 0;
@@ -83,10 +83,10 @@ body {
 }
 .card ul .fa.fa-check {
   font-size: 8px;
-  color: gold;
+  color: #FF7F00;
 }
 .card:hover {
-  background-color: gold;
+  background-color: #FF7F00;
 }
 .card:hover .fa.fa-check {
   color: #2b98f0;
@@ -139,6 +139,7 @@ body {
 }
 
 .para-pos1{
+    margin: 5%;
     width: 70%;
     height: 500px;
     position: absolute;
@@ -149,6 +150,7 @@ body {
    
 }
 .para-pos2{
+    margin: 5%;
     width: 70%;
     height: 500px;
     position: absolute;
@@ -158,6 +160,7 @@ body {
     padding-left: 1%;
 }
 .para-pos3{
+    margin: 5%;
     width: 70%;
     height: 500px;
     position: absolute;
